@@ -43,8 +43,6 @@ To learn more about writing beautiful SQL, check out these resources:
 
 *   [Mode on Performance Tuning SQL Queries](https://community.modeanalytics.com/sql/tutorial/sql-performance-tuning/)
 
-*   [Chartio on Improving Query Performance](https://support.chartio.com/knowledgebase/improving-query-performance)
-
 
 ### 3\. Running multiple ETL processes and queries
 
@@ -81,7 +79,7 @@ Each cluster may have different needs, so feel free to stray from this recommend
 
 ## Pro-tips for Segment Warehouses
 
-In addition to following performance best practices, here are a some more optimizations to consider if you're using Segment Warehouses.
+In addition to following performance best practices, here are some more optimizations to consider if you're using Segment Warehouses.
 
 ### Factors that affect load times
 
@@ -99,4 +97,4 @@ To make sure you have enough headroom for quick queries while using Segment Ware
 *   **Disable unused sources.** If you're not actively analyzing data from a source, consider disabling the source for your Warehouse (available for business tier). If you don't use a source anymore—perhaps you were just playing around with it for testing, you might even want to remove it. This will kick off fewer jobs in Segment's ETL process.
 *   **Schedule syncs during off times.** If you're concerned about query times and you don't mind data that's a little stale, you can schedule your syncs to run when most of your team isn't actively using the database. (Available for business tier customers.)
 
-Hopefully these steps will help to speed up your workflow! If you need any other help, feel free to [contact us](https://segment.com/help/contact/).
+Hopefully, these steps will help to speed up your workflow! If you need any other help, feel free to [contact us](https://segment.com/help/contact/).
